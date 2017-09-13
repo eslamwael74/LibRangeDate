@@ -20,4 +20,5 @@
     <color name="calendar_text_unselectable">#7f778088</color>
     <color name="calendar_text_highlighted">#ff778088</color>
     <color name="bg_selected_sample">#000000</color>
+    <color name="red">#F44336</color>
 </resources>

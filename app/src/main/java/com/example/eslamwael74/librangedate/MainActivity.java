@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         nextYear.add(Calendar.YEAR, 2);
 
         calendarView.init(today, nextYear.getTime())
-                .inMode(CalendarPickerView.SelectionMode.RANGE);
+                .inMode(CalendarPickerView.SelectionMode.MULTIPLE);
 
         calendarView.setCustomDayView(new DayViewAdapter() {
             @Override
